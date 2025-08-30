@@ -1,0 +1,21 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "slug": "big-buck-bunny-240p",
+      "title": "Big Buck Bunny (sample)",
+      "year": 2008,
+      "genre": "Animation",
+      "description": "Sample test movie using a publicly available small MP4 for demo purposes.",
+      "poster": "/static/placeholder.jpg",
+      "source": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4",
+      "sourceType": "mp4",
+      "download": "https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4",
+      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ",
+      "views": 0,
+      "ratings": [],
+      "comments": []
+    }
+  ],
+  "requests": []
+}
