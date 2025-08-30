@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Admin Upload</h1>
+<form method="POST" enctype="multipart/form-data">
+  <label>Admin Key</label><br>
+  <input name="admin_key" class="input" type="password" /><br><br>
+
+  <input name="title" class="input" placeholder="Title" /><br><br>
+  <input name="year" class="input" placeholder="Year" /><br><br>
+  <input name="genre" class="input" placeholder="Genre" /><br><br>
+  <textarea name="description" class="input" placeholder="Description"></textarea><br><br>
+
+  <input name="poster" type="file" /><br>
+  <input name="video" type="file" /><br><br>
+
+  <input name="poster_url" class="input" placeholder="Poster URL (optional)" /><br>
+  <input name="source_url" class="input" placeholder="Source URL (optional)" /><br>
+  <input name="download_url" class="input" placeholder="Download URL (optional)" /><br>
+  <input name="trailer" class="input" placeholder="YouTube embed URL (https://www.youtube.com/embed/ID)" /><br>
+  <select name="sourceType">
+    <option value="mp4">mp4</option>
+    <option value="hls">hls</option>
+  </select><br><br>
+
+  <button class="btn" type="submit">Upload</button>
+</form>
+{% endblock %}
